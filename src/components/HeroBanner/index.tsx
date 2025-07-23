@@ -6,7 +6,7 @@ const HeroBanner = () => {
       <div className="relative w-full min-h-[450px]">
         <img
           src={`${assets?.heroBannerBg}`}
-          alt="background"
+          alt=""
           className="absolute inset-0 w-full h-full object-cover"
         />
 
@@ -22,11 +22,11 @@ const HeroBanner = () => {
 
               <div className="flex space-x-4">
                 <button className="bg-white text-gray-800 py-3 px-6 rounded-lg flex items-center justify-center gap-2 font-medium">
-                  <img src={`${assets?.google}`} className="w-4 h-4" />
+                  <img src={`${assets?.google}`} alt="" className="w-4 h-4" />
                   <span>Continue with Google</span>
                 </button>
                 <button className="bg-[#376cb2] text-white py-3 px-6 rounded-lg flex items-center justify-center gap-2 font-medium">
-                  <img src={`${assets?.email}`} className="w-6 h-6" />
+                  <img src={`${assets?.email}`} alt="" className="w-6 h-6" />
                   <span>Continue with Email</span>
                 </button>
               </div>
@@ -55,6 +55,7 @@ const HeroBanner = () => {
               <div className="animate-marquee whitespace-nowrap flex space-x-8">
                 <img
                   src={`${assets?.companies}`}
+                  alt=""
                   className="h-full inline-block"
                 />
               </div>

@@ -32,7 +32,6 @@ export const assets = {
   trending2,
   trending3,
   trending4,
-  trending4,
   trending5,
   trending6,
   companies,

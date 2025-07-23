@@ -8,15 +8,6 @@ type MegaMenuSection = {
   badge?: string;
 };
 
-type MegaMenu = {
-  sections: MegaMenuSection[];
-};
-
-type DropdownItem = {
-  name: string;
-  path: string;
-};
-
 const Navbar = () => {
   const navLinks = [
     {
@@ -97,7 +88,6 @@ const Navbar = () => {
       ],
     },
   ];
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [activeMenu, setActiveMenu] = useState<number | null>(null);
   const [activeSection, setActiveSection] = useState(0);
 
