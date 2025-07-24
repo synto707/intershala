@@ -136,15 +136,17 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col md:flex-row md:items-center justify-between mt-6 gap-4">
-          <div className="flex items-center gap-4">
-            <button className="bg-black text-white px-4 py-2 flex items-center gap-2 rounded border border-white">
-              <FaGooglePlay />
-              Get it on Play Store
-            </button>
-            <button className="bg-black text-white px-4 py-2 flex items-center gap-2 rounded border border-white">
-              <FaApple />
-              Download on App Store
-            </button>
+          <div className="flex md:flex-row flex-col items-center gap-4">
+            <div className="flex gap-6">
+              <button className="bg-black text-white px-4 py-2 flex items-center gap-2 rounded border border-white">
+                <FaGooglePlay />
+                Get it on Play Store
+              </button>
+              <button className="bg-black text-white px-4 py-2 flex items-center gap-2 rounded border border-white">
+                <FaApple />
+                Download on App Store
+              </button>
+            </div>
             <div className="flex items-center gap-4 text-lg">
               <FaInstagram className="cursor-pointer w-4 h-4" />
               <FaTwitter className="cursor-pointer w-4 h-4" />

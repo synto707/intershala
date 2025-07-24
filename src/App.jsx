@@ -1,14 +1,14 @@
-import BuildResume from "./components/BuildResume/index.tsx";
-import CertificateCourses from "./components/CertificateCourses/index.tsx";
-import EmpowerCareer from "./components/EmpowerCareer/index.tsx";
-import Footer from "./components/Footer/index.tsx";
-import HeroBanner from "./components/HeroBanner/index.tsx";
-import InternshipSlider from "./components/Internships/index.tsx";
-import JobsSlider from "./components/Jobs/index.tsx";
-import Navbar from "./components/Navbar/Navbar.tsx";
-import PlacementCourses from "./components/PlacementCourses/index.tsx";
-import Testimonial from "./components/Testimonial/index.tsx";
-import TrendingNow from "./components/Trending/index.tsx";
+import BuildResume from "./components/BuildResume/index.jsx";
+import CertificateCourses from "./components/CertificateCourses/index.jsx";
+import EmpowerCareer from "./components/EmpowerCareer/index.jsx";
+import Footer from "./components/Footer/index.jsx";
+import HeroBanner from "./components/HeroBanner/index.jsx";
+import InternshipSlider from "./components/Internships/index.jsx";
+import JobsSlider from "./components/Jobs/index.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import PlacementCourses from "./components/PlacementCourses/index.jsx";
+import Testimonial from "./components/Testimonial/index.jsx";
+import TrendingNow from "./components/Trending/index.jsx";
 
 const App = () => {
   return (
